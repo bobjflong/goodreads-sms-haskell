@@ -1,0 +1,10 @@
+*.hi
+*.o
+CSVPivot
+*.swp
+*.sublime-project
+Main
+dist/
+csvp
+.cabal-sandbox/
+cabal.sandbox.config
