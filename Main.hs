@@ -8,15 +8,9 @@ import TwilioParser
 import Text.HandsomeSoup
 import Text.XML.HXT.Core
 import Control.Lens
-import Debug.Trace
 import Happstack.Lite
-import Happstack.Server (askRq)
-import Network.HTTP (urlEncode)
-import Happstack.Server.Types
 import qualified Data.ByteString.Lazy.Char8 as L
-import Data.Aeson
 import Control.Monad.Trans
-import Data.Maybe
 import Text.StringLike
 import Data.String
 import Text.HTML.TagSoup

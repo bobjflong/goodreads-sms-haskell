@@ -5,8 +5,6 @@ module TwilioParser where
 import Data.Aeson
 import Control.Applicative
 import Control.Monad
-import Data.ByteString.Lazy.Char8
-import Debug.Trace
 
 data InboundSMS = InboundSMS {
   smsBody :: SMSBody
