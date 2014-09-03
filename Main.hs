@@ -72,6 +72,7 @@ webapp = msum [
     dir "reviews" $ findReview
   ]
 
+main :: IO ()
 main =
   do serve Nothing webapp 
 
